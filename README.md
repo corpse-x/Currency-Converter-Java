@@ -55,7 +55,7 @@ A simple currency converter built in Java using the [Alpha Vantage](https://www.
 
 ## 🛠 Troubleshooting
 1. No source files:
-If you see an error like error: ```no source files``, make sure that the   ```CurrencyConverter.java``` file is in the correct directory and that you're running the javac command from that directory.
+If you see an error like error: ```no source files```, make sure that the   ```CurrencyConverter.java``` file is in the correct directory and that you're running the javac command from that directory.
 
 2. ```json-20240303.jar``` not found:
 If the program can't find ```json-20240303.jar```, ensure that the JAR file is in the same directory as your ```CurrencyConverter.java``` file. Also, check that you're specifying the correct path in the classpath, as shown in the javac and java commands.
