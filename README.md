@@ -41,10 +41,31 @@ A simple currency converter built in Java using the [Alpha Vantage](https://www.
 
    ```sh
    javac -cp ".;.\json-20240303.jar" "CurrencyConverter.java"
+
 2. **Now to Run the code**
 
-   ```sh 
+    ```sh 
    java -cp ".;.\json-20240303.jar" CurrencyConverter --help
-
-```sh
+__Example__
+    ```sh
    java -cp ".;.\json-20240303.jar" CurrencyConverter 100 USD INR
+
+---
+
+## 🛠 Troubleshooting
+1. No source files:
+If you see an error like error: ```no source files``, make sure that the   ```CurrencyConverter.java``` file is in the correct directory and that you're running the javac command from that directory.
+
+2. ```json-20240303.jar``` not found:
+If the program can't find ```json-20240303.jar```, ensure that the JAR file is in the same directory as your ```CurrencyConverter.java``` file. Also, check that you're specifying the correct path in the classpath, as shown in the javac and java commands.
+
+3. API Key Error:
+If you get an error related to the API key, double-check that you've entered a valid Alpha Vantage API key in your ```CurrencyConverter.java``` code and that it's correctly placed.
+
+4. No exchange rate available for certain currencies:
+If the Alpha Vantage API does not support the currency pair you're trying to convert, you may receive an error message. Ensure the currencies you are trying to convert are available on the Alpha Vantage supported currencies list.
+
+## 📧 Contact
+If you have any questions or suggestions, feel free to open an issue or contact me at:
+
+Telegram: [GHOST](https://t.me/ghost_kun)
