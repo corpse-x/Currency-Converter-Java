@@ -45,6 +45,6 @@ A simple currency converter built in Java using the [Alpha Vantage](https://www.
 
    ```sh 
    java -cp ".;.\json-20240303.jar" CurrencyConverter --help
-   
-   ```sh
+
+```sh
    java -cp ".;.\json-20240303.jar" CurrencyConverter 100 USD INR
