@@ -40,4 +40,8 @@ A simple currency converter built in Java using the [Alpha Vantage](https://www.
    Open a terminal (or command prompt) in your project directory and run the following command to compile the Java program:
 
    ```sh
-   javac -cp ".;.\json-20240303.jar" CurrencyConverter.java
+   javac -cp ".;.\json-20240303.jar" "CurrencyConverter.java"
+2. ** Now to Run the code**
+
+   ```sh 
+   java -cp ".;.\json-20240303.jar" CurrencyConverter --help 
